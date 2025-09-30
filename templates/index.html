@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adem Tolunay Anadolu Lisesi Hava Durumu</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🌤 Adem Tolunay Anadolu Lisesi Hava Durumu</h1>
+    </header>
+
+    <main>
+      <section class="weather-card">
+        <h2 id="location">Yükleniyor...</h2>
+        <div class="temp-box">
+          <span id="temperature">-- °C</span>
+        </div>
+        <ul class="details">
+          <li>🌡 Çiğ Noktası: <span id="dew">--</span></li>
+          <li>💨 Rüzgar: <span id="wind">--</span></li>
+          <li>🌧 Yağış: <span id="rain">--</span></li>
+          <li>🔽 Basınç: <span id="pressure">--</span></li>
+        </ul>
+      </section>
+
+      <button id="refresh">🔄 Veriyi Güncelle</button>
+    </main>
+
+    <footer>
+      <p>Veriler Copernicus Climate Data Store (ERA5) üzerinden çekilmektedir.</p>
+    </footer>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>

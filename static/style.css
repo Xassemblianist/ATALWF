@@ -1,0 +1,71 @@
+/* Genel stil */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(120deg, #6dd5ed, #2193b0);
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Container */
+.container {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 16px;
+  padding: 30px;
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+
+header h1 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.weather-card {
+  margin-bottom: 20px;
+}
+
+.temp-box {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+ul.details {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.details li {
+  font-size: 16px;
+  margin: 6px 0;
+}
+
+button {
+  background: #ff9800;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+button:hover {
+  background: #e68900;
+  transform: scale(1.05);
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 12px;
+  opacity: 0.7;
+}

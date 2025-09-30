@@ -1,0 +1,9 @@
+cat > requirements.txt <<'EOF'
+Flask>=2.0
+cdsapi>=0.6.0
+xarray>=2022.0
+netCDF4
+numpy
+pandas
+python-dotenv
+EOF
